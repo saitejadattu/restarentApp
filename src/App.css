@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 576px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .restarent-name {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .cart-container {
+    position: relative;
+  }
+  .cart-image {
+    font-size: 25px;
+    margin-top: 0px;
+    position: relative;
+    color: grey;
+  }
+  .cart-value {
+    width: 1.4rem;
+    height: 1.4rem;
+    position: absolute;
+    background-color: rgb(223, 91, 2);
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: -40%;
+    left: 40%;
+    font-size: 10px;
+  }
+  .tab-button-container {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .category_dishes-container {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding: 5px;
+  }
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .restarent-name {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .cart-container {
+    position: relative;
+  }
+  .cart-image {
+    font-size: 35px;
+    margin-top: 0px;
+    position: relative;
+    color: grey;
+  }
+  .cart-value {
+    width: 1.4rem;
+    height: 1.4rem;
+    position: absolute;
+    background-color: rgb(223, 91, 2);
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: -30%;
+    left: 60%;
+    font-size: 10px;
+  }
+  .tab-button-container {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .category_dishes-container {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding: 5px;
+  }

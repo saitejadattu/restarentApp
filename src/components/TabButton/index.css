@@ -1,0 +1,30 @@
+@media (max-width: 576px) {
+  .tab-button {
+    border: 0px;
+    background-color: transparent;
+    width: 200px;
+    padding-bottom: 50px;
+  }
+  .active-button {
+    display: inline;
+    border-bottom: 2px solid rgb(121, 44, 44);
+    padding-bottom: 2px;
+    color: rgb(121, 44, 44);
+    padding: 10px;
+  }
+
+}
+.tab-button {
+    border: 0px;
+    background-color: transparent;
+    width: 218px;
+    padding-bottom: 50px;
+  }
+  .active-button {
+    display: inline;
+    border-bottom: 2px solid rgb(121, 44, 44);
+    padding-bottom: 2px;
+    color: rgb(121, 44, 44);
+    padding: 10px;
+  }
+  

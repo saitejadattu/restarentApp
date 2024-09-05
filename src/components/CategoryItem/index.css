@@ -1,0 +1,196 @@
+@media (max-width: 576px) {
+  .each-dish-list-item {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .veg-symbol-and-text-container {
+    display: flex;
+    width: 300px;
+  }
+  .veg-dot-symbol {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .veg-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  .non-veg-dot-symbol {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid rgb(84, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .non-veg-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(84, 0, 0);
+  }
+  .text-container {
+    align-self: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .dish-name {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .dish-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    width: 150px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button {
+    border: 0px;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  .dish-quantity {
+    color: white;
+    font-size: 15px;
+  }
+  .dish-calories-container {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dish-calories-text {
+    color: orange;
+  }
+  .dish-currency {
+    font-weight: 500;
+    color: grey;
+  }
+  .add-ons {
+    color: rgb(80, 30, 230);
+    font-weight: 500;
+  }
+  .not-available {
+    color: red;
+  }
+}
+@media (min-width: 577px) {
+  .each-dish-list-item {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .veg-symbol-and-text-container {
+    display: flex;
+    width: 600px;
+  }
+  .veg-dot-symbol {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .veg-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+  }
+  .non-veg-dot-symbol {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid rgb(84, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .non-veg-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(84, 0, 0);
+  }
+  .text-container {
+    align-self: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .dish-name {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .dish-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    width: 150px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .button {
+    border: 0px;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  .dish-quantity {
+    color: white;
+    font-size: 15px;
+  }
+  .dish-calories-container {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dish-calories-text {
+    color: orange;
+  }
+  .dish-currency {
+    font-weight: 500;
+    color: grey;
+  }
+  .add-ons {
+    color: rgb(80, 30, 230);
+    font-weight: 500;
+  }
+  .not-available {
+    color: red;
+  }
+}
