@@ -76,10 +76,9 @@ class App extends Component {
     const send = activeCategory.categoryDishes.filter(
       each => each.dishId == dish.dishId,
     )
-    const updated = cart.filter(each => each.quantity - 1 > 0)
-    if (!dish.quantity) {
-      this.setState({cart: updated})
-    } else {
+    const updated = cart.filter(each => each.quantity !==0)
+    this.setState({cart: updated)
+     if(dish.quantity) {
       dish['quantity'] = dish['quantity'] - 1
       this.setState(prevState => ({
         cart: prevState.cart,
@@ -89,6 +88,8 @@ class App extends Component {
   }
   increseQuantity = dish => {
     const {cart, activeCategory} = this.state
+    const updated = cart.filter(each => each.quantity !==0)
+    this.setState({cart: updated)
     const send = activeCategory.categoryDishes.filter(
       each => each.dishId == dish.dishId,
     )
